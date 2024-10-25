@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "bot.js", 
+  "bin": "bot.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "", 
+  "license": "ISC",
+  "description": "Um bot do WhatsApp usando venom-bot", 
+  "dependencies": {
+    "venom-bot": "^5.1.0"
+  },
+  "pkg": {
+    "targets": [
+      "node16-win-x64"
+    ],
+    "assets": [
+      "tokens/**/*"
+    ]
+  }
+}
